@@ -1,0 +1,25 @@
+{
+  "name": "DBJAAP",
+  "version": "1.0.0",
+  "description": "Projet de développement d'une platforme de cours",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently - kill-others \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amulus/DBJAAP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amulus/DBJAAP/issues"
+  },
+  "homepage": "https://github.com/Amulus/DBJAAP#readme",
+  "devDependencies": {
+    "concurrently": "3.5.1"
+  }
+}
